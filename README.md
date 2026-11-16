@@ -1,6 +1,6 @@
 # Big Data Assignments
 
-This repository contains my Big Data assignments implemented using Python, MapReduce, Apache Spark, and Spark Streaming.
+This repository contains my Big Data assignments implemented using Python, MapReduce, and Apache Spark.
 
 ## Student Information
 
@@ -62,34 +62,32 @@ Used Apache Spark/PySpark to calculate the total number of products sold in each
 
 ---
 
-### Assignment 4 — Spark Streaming with Fault Tolerance and Checkpointing
+### Assignment 4 — Spark Streaming
 
-Implemented a Spark Streaming program to process real-time streaming data using a sample RDD queue.
+Implemented two Spark Streaming programs using PySpark.
+
+**Program 1: Real-Time Data Streaming with Fault Tolerance and Checkpointing**
+
+- Processed streaming data using a sample RDD queue.
+- Implemented word counting on streaming data.
+- Applied checkpointing for fault tolerance and recovery.
+
+**Program 2: Duplicate File Detection Using Spark Streaming**
+
+- Identified duplicate files using MD5 hashing.
+- Grouped files based on their hash values.
+- Detected files having identical contents.
 
 **Technologies/Concepts:**
 - Python
 - PySpark
-- Spark Streaming
+- Apache Spark Streaming
 - DStream
 - RDD Queue
 - Word Count
 - Fault Tolerance
 - Checkpointing
-
----
-
-### Assignment 5 — Duplicate File Detection Using Spark Streaming
-
-Implemented a Spark Streaming program to identify duplicate files by comparing their MD5 hashes.
-
-**Technologies/Concepts:**
-- Python
-- PySpark
-- Spark Streaming
-- DStream
 - MD5 Hashing
-- `map()`
-- `groupByKey()`
 - Duplicate Detection
 
 ---
